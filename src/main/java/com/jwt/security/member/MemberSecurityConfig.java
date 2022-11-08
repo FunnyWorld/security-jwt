@@ -43,7 +43,5 @@ public class MemberSecurityConfig extends WebSecurityConfigurerAdapter {
 				.logoutSuccessUrl("/user/login")
 			.and()
 				.exceptionHandling().accessDeniedPage("/errors/403");
-
 	}
-
 }
